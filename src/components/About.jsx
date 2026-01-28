@@ -18,7 +18,7 @@ function About() {
 
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="/imagenes/hero/fabiola-cisternas.png"
+                src={`${import.meta.env.BASE_URL}imagenes/hero/fabiola-cisternas.png`}
                 alt="Fabiola Cisternas - Ingeniera en Alimentos"
                 className="w-full h-auto object-cover"
               />

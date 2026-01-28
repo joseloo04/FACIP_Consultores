@@ -18,7 +18,7 @@ function Header() {
           {/* ============ LOGO ============ */}
           <div className="flex items-center h-20">
             <img
-              src="/imagenes/LOGO_FACIP.png"
+              src={`${import.meta.env.BASE_URL}imagenes/LOGO_FACIP.png`}
               alt="FACIP Quality Management"
               className="h-full w-auto max-h-20 object-contain"
             />

@@ -28,7 +28,7 @@ function ExperienceInAction() {
                         <div className="absolute inset-0">
                             {/* Placeholder si no hay imagen específica, o usar una genérica */}
                             <img
-                                src="/imagenes/experiencia/capacitacion.png"
+                                src={`${import.meta.env.BASE_URL}imagenes/experiencia/capacitacion.png`}
                                 onError={(e) => { e.target.src = 'https://images.unsplash.com/photo-1544531586-fde5298cdd40?q=80&w=2670&auto=format&fit=crop' }}
                                 alt="Capacitaciones presenciales"
                                 // ✅ FIX: object-top to keep faces visible + reduced gradient height
@@ -57,7 +57,7 @@ function ExperienceInAction() {
                         {/* Imagen de fondo */}
                         <div className="absolute inset-0">
                             <img
-                                src="/imagenes/experiencia/certificados.jpg"
+                                src={`${import.meta.env.BASE_URL}imagenes/experiencia/certificados.jpg`}
                                 onError={(e) => { e.target.src = 'https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2670&auto=format&fit=crop' }}
                                 alt="Resultados y certificaciones"
                                 // ✅ FIX: object-top to keep faces visible

@@ -63,7 +63,7 @@ function Footer() {
             {/* Logo */}
             <div className="flex items-center h-8">
               <img
-                src="/imagenes/LOGO_FACIP.png"
+                src={`${import.meta.env.BASE_URL}imagenes/LOGO_FACIP.png`}
                 alt="FACIP Quality Management"
                 // Logo con altura del 100% del contenedor y ancho automático
                 className="h-full w-auto max-h-8 object-contain"

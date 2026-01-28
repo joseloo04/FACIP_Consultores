@@ -84,7 +84,7 @@ function Hero() {
           <div className="relative" data-aos="fade-left">
             <div className="relative rounded-3xl overflow-hidden">
               <img
-                src="/imagenes/hero/fabiola-cisternas.png"
+                src={`${import.meta.env.BASE_URL}imagenes/hero/fabiola-cisternas.png`}
                 alt="Fabiola Cisternas - Ingeniera en Alimentos"
                 className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-700"
               />
