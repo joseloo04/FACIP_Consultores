@@ -4,39 +4,39 @@ function Services() {
       id: 1,
       // Icono: Clipboard Check
       icono: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4",
-      titulo: "Implementación ISO",
-      descripcion: "Diseño e implementación completa de sistemas de gestión de calidad según normas ISO 9001, ISO 22000, HACCP y otras.",
+      titulo: "Consultoría en Gestión de Inocuidad",
+      descripcion: "Asesoría integral para el diseño, implementación y optimización de sistemas de gestión (HACCP, ISO, FSSC) que garantizan la seguridad alimentaria.",
       caracteristicas: [
-        "Diagnóstico inicial y brechas",
-        "Documentación y procesos",
-        "Capacitación del personal",
-        "Puesta en marcha"
+        "Diagnóstico y levantamiento de procesos",
+        "Diseño de documentación a medida",
+        "Acompañamiento en la implementación",
+        "Asesoría continua"
       ]
     },
     {
       id: 2,
       // Icono: File Text / Consultoria
       icono: "M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z",
-      titulo: "Consultoría Especializada",
-      descripcion: "Asesoría experta para optimizar tus procesos y mantener la conformidad con los estándares internacionales.",
+      titulo: "Auditorías de Primera y Segunda Parte",
+      descripcion: "Evaluaciones exhaustivas para verificar el cumplimiento normativo interno o de tus proveedores, asegurando la preparación para certificaciones oficiales.",
       caracteristicas: [
-        "Mejora continua de procesos",
-        "Actualización de sistemas",
-        "Gestión de no conformidades",
-        "Planes de acción correctiva"
+        "Auditorías internas de diagnóstico",
+        "Evaluación de proveedores",
+        "Detección de no conformidades",
+        "Plan de cierre de brechas"
       ]
     },
     {
       id: 3,
       // Icono: Search / Auditoria
       icono: "M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z",
-      titulo: "Auditorías Internas",
-      descripcion: "Auditorías exhaustivas para evaluar el cumplimiento de las normas ISO y preparar a tu empresa para la certificación.",
+      titulo: "Capacitación y Formación Especializada",
+      descripcion: "Programas de entrenamiento teórico-práctico diseñados para cerrar brechas de competencia y actualizar a tu equipo en las últimas normativas.",
       caracteristicas: [
-        "Auditorías programadas",
-        "Informes detallados",
-        "Recomendaciones de mejora",
-        "Preparación certificación"
+        "Cursos in-company y abiertos",
+        "Talleres de interpretación de normas",
+        "Formación de auditores internos",
+        "Material didáctico actualizado"
       ]
     }
   ];
